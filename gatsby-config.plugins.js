@@ -15,8 +15,8 @@ module.exports = [
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'Luigi Colella Blog',
-        short_name: 'Luigi Colella',
+        name: 'Shawon Ashraf Blog',
+        short_name: 'Shawon Ashraf',
         start_url: '/',
         background_color: '#0C2744',
         theme_color: '#0C2744',
@@ -51,5 +51,6 @@ module.exports = [
     },
     feedPlugin,
     `gatsby-plugin-sitemap`,
-    `gatsby-plugin-robots-txt`
+    `gatsby-plugin-robots-txt`,
+    `gatsby-plugin-netlify-cms`
 ]
