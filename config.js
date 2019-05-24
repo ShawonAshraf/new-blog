@@ -78,6 +78,14 @@ module.exports = {
     graphics: {
       name: 'Computer Graphics',
       description: 'The study behind visual computing.'
+    },
+    oop: {
+      name: 'Object Oriented Programming',
+      description: ''
+    },
+    python: {
+      name: 'Python',
+      description: ''
     }
   }
 }
