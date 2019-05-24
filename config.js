@@ -1,6 +1,6 @@
 
 module.exports = {
-  pathPrefix: '',
+  pathPrefix: '/content',
   siteUrl: 'https://shawonashraf.github.io',
   siteTitle: 'Shawon Ashraf',
   siteDescription: 'I solemnly swear that I\'m upto no good.',

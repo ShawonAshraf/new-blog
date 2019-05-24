@@ -22,7 +22,6 @@ const Post = ({ data, pageContext }) => {
   const img = cover.childImageSharp.fluid
   const canonicalUrl = Utils.resolvePageUrl(
     Config.siteUrl,
-    Config.pathPrefix,
     path
   )
   const coverUrl = Utils.resolveUrl(Config.siteUrl, img.src)
