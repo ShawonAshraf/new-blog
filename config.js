@@ -18,7 +18,8 @@ module.exports = {
   social: {
     github: 'https://github.com/ShawonAshraf',
     linkedin: 'https://www.linkedin.com/in/shawon-ashraf-96162763/',
-    rss: '/rss.xml'
+    twitter: 'https://twitter.com/shawon_ashraf',
+    medium: 'https://medium.com/@sashraf94'
   },
   tags: {
     angular: {
