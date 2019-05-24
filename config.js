@@ -7,7 +7,7 @@ module.exports = {
   author: 'ShawonAshraf',
   postsForArchivePage: 3,
   defaultLanguage: 'en',
-  disqusScript: 'https://luigi-colella.disqus.com/embed.js',
+  disqusScript: '',
   pages: {
     home: '/',
     blog: 'blog',
@@ -16,8 +16,8 @@ module.exports = {
     archive: 'archive'
   },
   social: {
-    github: 'https://github.com/lgcolella',
-    linkedin: '',
+    github: 'https://github.com/ShawonAshraf',
+    linkedin: 'https://www.linkedin.com/in/shawon-ashraf-96162763/',
     rss: '/rss.xml'
   },
   tags: {
@@ -61,6 +61,10 @@ module.exports = {
     ios: {
       name: 'iOS',
       description: "World's most advanced mobile OS, or so as Apple says!"
+    },
+    java: {
+      name: 'Java',
+      description: 'The language Oracle has sworn to kill someday.'
     }
   }
 }
