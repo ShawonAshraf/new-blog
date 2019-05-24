@@ -8,10 +8,11 @@ public_folder: assets
 collections:
   - name: blog
     label: Blog
-    folder: content
+    path: "content/{{date}}-{{dir}}/index.md"
     create: true
     fields:
       - { name: "title", label: "Title", widget: "string" }
+      - { name: "dir", label: "Directory", widget: "string" }
       - { name: "path", label: "Path", widget: "string" }
       - { name: "date", label: "Date", widget: "date", format: "YYYY-MM-DD" }
       - { name: "tags", label: "Tags", widget: "list" }
