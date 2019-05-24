@@ -65,6 +65,14 @@ module.exports = {
     java: {
       name: 'Java',
       description: 'The language Oracle has sworn to kill someday.'
+    },
+    dip: {
+      name: 'Digital Image Processing',
+      description: 'The study behind image manipulation, object detection, image segmentation and so on.'
+    },
+    cpp: {
+      name: 'C++',
+      description: 'The object oriented programming language that shoots you in the foot.'
     }
   }
 }
