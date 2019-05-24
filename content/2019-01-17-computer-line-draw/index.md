@@ -2,7 +2,7 @@
 title: কম্পিউটার লাইন ক্যামনে আঁকে?
 path: blog/computer-line-draw
 date: 2019-01-17
-tags: [cpp]
+tags: [cpp, cg]
 excerpt: এই খুশির ঠ্যালায়, আনন্দে আর ঘোরতে ঘোরতে আঁইকা ফেলে আরকি!
 cover: ./line.png
 ---

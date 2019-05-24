@@ -74,6 +74,10 @@ module.exports = {
     cpp: {
       name: 'C++',
       description: 'The object oriented programming language that shoots you in the foot.'
+    },
+    cg: {
+      name: 'Computer Graphics',
+      description: 'The study behind visual computing.'
     }
   }
 }
