@@ -3,7 +3,7 @@ module.exports = {
   pathPrefix: '/gatsby-starter-developer-blog',
   siteUrl: 'https://lgcolella.github.io',
   siteTitle: 'Shawon Ashraf',
-  siteDescription: 'I know nothing, honestly!',
+  siteDescription: 'I solemnly swear that I\'m upto no good.',
   author: 'ShawonAshraf',
   postsForArchivePage: 3,
   defaultLanguage: 'en',
