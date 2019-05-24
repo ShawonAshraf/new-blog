@@ -2,7 +2,7 @@
 title: ইমেজ কি জিনিস
 path: blog/dip-what-is-image
 date: 2019-02-09
-tags: [dip,cpp]
+tags: [dip]
 excerpt: ফটোই তো! তাই না? 
 cover: ./drib-processing.png
 ---
