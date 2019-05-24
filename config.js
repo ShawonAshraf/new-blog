@@ -2,9 +2,9 @@
 module.exports = {
   pathPrefix: '/gatsby-starter-developer-blog',
   siteUrl: 'https://lgcolella.github.io',
-  siteTitle: 'Luigi Colella',
-  siteDescription: 'Logbook of a software developer',
-  author: 'lcolella',
+  siteTitle: 'Shawon Ashraf',
+  siteDescription: 'I know nothing, honestly!',
+  author: 'ShawonAshraf',
   postsForArchivePage: 3,
   defaultLanguage: 'en',
   disqusScript: 'https://luigi-colella.disqus.com/embed.js',
@@ -53,6 +53,14 @@ module.exports = {
     vuejs: {
       name: 'Vue.js',
       description: 'Vue.js is a JavaScript framework for building interactive web applications.'
+    },
+    swift: {
+      name: 'Swift',
+      description: 'Swift is a protocol oriented programming language from Apple.'
+    },
+    ios: {
+      name: 'iOS',
+      description: "World's most advanced mobile OS, or so as Apple says!"
     }
   }
 }
