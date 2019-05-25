@@ -1,5 +1,5 @@
 ---
-title: ggwp
+title: index
 path: blog/ggwp
 date: 2019-05-25T00:00:00+06:00
 tags: []
