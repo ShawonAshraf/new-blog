@@ -20,5 +20,3 @@ fields:
 - type: file
   name: cover
   label: cover
-pages:
-- content/2019-05-25-ggwp/ggwp.md
