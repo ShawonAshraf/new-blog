@@ -9,7 +9,8 @@ collections:
   - name: blog
     label: Blog
     folder: content
-    slug: "{{date}}-{{dir}}/index.md"
+    slug: "{{date}}-{{dir}}"
+    path: "{{slug}}/index.md"
     create: true
     fields:
       - { name: "title", label: "Title", widget: "string" }
