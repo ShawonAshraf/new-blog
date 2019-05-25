@@ -10,7 +10,7 @@ cache:
 install:
   - yarn install
 script:
-  - yarn run deploy
+  - yarn build --prefix-paths
 deploy:
   provider: pages
   skip-cleanup: true
