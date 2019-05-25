@@ -1,6 +1,6 @@
 {
-  "name": "personal-site",
-  "description": "My personal site",
+  "name": "new-blog",
+  "description": "A new place for my ideas to reside.",
   "version": "1.0.0",
   "author": "lcolella",
   "dependencies": {
