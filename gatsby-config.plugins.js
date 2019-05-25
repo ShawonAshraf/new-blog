@@ -52,5 +52,4 @@ module.exports = [
     feedPlugin,
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-robots-txt`,
-    `gatsby-plugin-netlify-cms`
 ]
