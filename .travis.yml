@@ -1,7 +1,7 @@
 
 language: node_js
 node_js:
-  - "8"
+  - "10"
 cache:
   yarn: true
   directories:
@@ -10,11 +10,11 @@ cache:
 install:
   - yarn install
 script:
-  - yarn build --prefix-paths
+  - yarn run deploy
 deploy:
   provider: pages
   skip-cleanup: true
-  github-token: $GITHUB_TOKEN
+  github-token: 3af2ac1680854d783a8f8e5178e0f6eb14c01c0e
   local-dir: public
   on:
     branch: master
