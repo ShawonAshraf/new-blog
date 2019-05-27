@@ -39,7 +39,9 @@
     "start": "npm run dev",
     "serve": "gatsby serve",
     "format": "prettier --write \"src/**/*.js\"",
-    "deploy": "gatsby build && gh-pages -d public -r https://github.com/ShawonAshraf/ShawonAshraf.github.io -b master",
+    "travis-push": "gh-pages -d public -r https://$GITHUB_TOKEN@github.com/ShawonAshraf/ShawonAshraf.github.io -b master",
+    "deploy-local": "gatsby build && gh-pages -d public -r https://github.com/ShawonAshraf/ShawonAshraf.github.io -b master",
+    "deploy": "gatsby build && yarn run travis-push",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
