@@ -11,10 +11,3 @@ install:
   - yarn install
 script:
   - yarn run deploy
-deploy:
-  provider: pages
-  skip-cleanup: true
-  github-token: $GITHUB_TOKEN
-  local-dir: public
-  on:
-    branch: master
