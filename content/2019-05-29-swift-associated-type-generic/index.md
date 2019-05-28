@@ -8,7 +8,7 @@ cover: ../../src/images/postpreviews/swift.png
 ---
 
 ### Before we dig deep, Protocols!
-Swift introduced this new paradigm called POP or `Protocol Oriented Programming`. For people new to Swift, especially those coming from an OOP heavy language like Java or C#, Protocols may seem somewhat like interfaces. At least that's what it seems from a quick look. Protocols are actually an entirely different kind of animal from Interfaces when it comes to implementation. (*Not to mention the added benefits that Protocols bring.)*
+Swift introduced this new paradigm called POP or `Protocol Oriented Programming`. For people new to Swift, especially those coming from an OOP heavy language like Java or C#, Protocols may seem somewhat like interfaces. At least that's what it seems from a quick look. Protocols are actually an entirely different kind of animal from Interfaces when it comes to implementation. (*Not to mention the added benefits Protocols bring.)*
 
 Let's say you want to have a Protocol with a method that adds two numbers and returns the sum. For now, let's just consider that we'll be adding `Int` type numbers only.
 
@@ -48,7 +48,7 @@ protocol Adder {
 
 Notice the difference, we created a type out of nowhere and now our function can work with it!
 
-What an `associatedtype` does is actually tells the compiler that, listen dear compiler, my functions are a confused bunch of people who don't know whom they should let in, so pardon them for a while and I'm adding a type name or placeholder for these whom kinda people who're about to come in so that you can tag them later on. 
+What an `associatedtype` does is it actually tells the compiler that, listen dear compiler, my functions are a confused bunch of people who don't know whom they should let in, so pardon them for a while and I'm adding a type name or placeholder for these whom kinda people who're about to come in so that you can tag them later on. 
 
 In other words, `associatedtype` gives your imaginary type a name / id so that it doesn't get lost in the crowd.
 
