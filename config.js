@@ -57,7 +57,7 @@ module.exports = {
     },
     swift: {
       name: 'Swift',
-      description: 'Swift is a protocol oriented programming language from Apple.'
+      description: 'Swift is a general-purpose programming language built using a modern approach to safety, performance, and software design patterns. Inspired by many other modern programming languages, Swift is intended to be more resilient and expressive than Objective-C, its predecessor.'
     },
     ios: {
       name: 'iOS',
