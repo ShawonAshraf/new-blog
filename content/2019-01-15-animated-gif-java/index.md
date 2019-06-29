@@ -4,7 +4,7 @@ path: blog/animated-gif-java
 date: 2019-01-15
 tags: [java]
 excerpt: Let's load some gifs in a JFrame
-cover: ./preview.png
+cover: ../../src/images/postpreviews/java-duke.png
 ---
 
 
@@ -18,7 +18,7 @@ For testing whether our loader works or not we'll use this animated gif : <a hr
 ## How it'll look like?
 We expect something like this : 
 
-<img class=" aligncenter" src="http://i.imgur.com/6Tk8YBC.png" alt="gifLoader" width="562" height="578" />
+![img](./6Tk8YBC.png)
 
  
 ## Breaking down the procedure
