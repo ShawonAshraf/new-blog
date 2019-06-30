@@ -77,7 +77,7 @@ All-Rounder
 All's fine now, right? I mean throwing in a FootballPlayer or TennisPlayer won't hurt now. But hold on dear Watson, we've things to discuss.
 
 ### What can go wrong here? 
-Nothing actually unless you really care about low level performance of your applications. How do you think the compiler figures out what type to use for the PAT? Sure, generic types work that way, the compiler figures a way out but the question is when does it figure it out? 
+Nothing actually unless you really care about low level performance of your applications. How do you think the compiler figures out what type to use for the PAT? Sure, generic types work like that, the compiler will figure out the type to apply but the question is when does it figure it out? 
 
 #### Enter Dynamic Dispatch
 For PATs, the compiler will have to figure out the type at runtime, which means it has to do it with dynamic dispatch. What is this thing actually? On easier terms Dynamic Dispatch means to defer something until runtime and let the decision to be made then, instead of making things concrete during compile time. Dynamic Dispatch is necessary for polymorphic types, where the compiler doesn't know which polymorphic type to use at compile time so it keeps that decision to be made at runtime. 
