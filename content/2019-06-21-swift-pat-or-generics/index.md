@@ -77,7 +77,7 @@ All-Rounder
 All's fine now, right? I mean throwing in a FootballPlayer or TennisPlayer won't hurt now. But hold on dear Watson, we've things to discuss.
 
 ### What can go wrong here? 
-Nothing actually unless you really care about low level performance of your applications. How do you think the compiler figures out what type to user for the PAT? Sure, generic types work that way, the compiler figures a way out but the question is when does it figure it out? 
+Nothing actually unless you really care about low level performance of your applications. How do you think the compiler figures out what type to use for the PAT? Sure, generic types work that way, the compiler figures a way out but the question is when does it figure it out? 
 
 #### Enter Dynamic Dispatch
 For PATs, the compiler will have to figure out the type at runtime, which means it has to do it with dynamic dispatch. What is this thing actually? On easier terms Dynamic Dispatch means to defer something until runtime and let the decision to be made then, instead of making things concrete during compile time. Dynamic Dispatch is necessary for polymorphic types, where the compiler doesn't know which polymorphic type to use at compile time so it keeps that decision to be made at runtime. 
@@ -86,7 +86,7 @@ For PATs, the compiler will have to figure out the type at runtime, which means 
 Static Dispatch is just the opposite. The compiler already knows what to do, has a clear idea about types in use, so it does everything during compile time. 
 
 #### Is Static Dispatch faster?
-Comparatively, yes. But is it better than Dynamic Dispatch? You've to understand that both are for different tasks and your compiler is already designed to make them work pretty efficiently. What if, you get the opportunity to choose one from both? 
+Comparatively, yes. But is it better than Dynamic Dispatch? You've to understand that both are for different tasks and your compiler is already designed to make them work pretty efficiently. What if, you can use both and now, you've to choose one? 
 
 ### Generics and Static Dispatch
 Let's re-write the same code using generics. A bit differently.
@@ -141,7 +141,7 @@ describePlayer(of: shaks)
 ```
 
 ### Both did the same job....
-Yes they did. So, which one to choose then? Dynamic or Static? To make a decision, we have to consider the following facts - 
+Yes they did. So, which one to choose then? Dynamic or Static? To make a verdict, we have to consider the following - 
 
 1. While generics will be faster due to Static Dispatch, it'll also be heavier on memory compared to PATs with dynamic types. Why? Because for each type, the compiler will push a new function to the stack whereas for PAT, due to the dynamic dispatch only the required function will be created.
 2. What if you don't want the Player class to conform to the protocol and also want to keep separate definition for descriptor classes? You'll end up writing more code!
