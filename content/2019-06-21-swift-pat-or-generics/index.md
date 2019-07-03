@@ -8,7 +8,7 @@ cover: ../../src/images/postpreviews/swift.png
 ---
 
 ### PAT?
-Before we begin, let me explain the terms here. PAT means Protocols with associated types. PATs can be generic, which means you can use any type with them, ([You can refer to this post I wrote earlier on how Protocols in Swift can be used as generic types](https://medium.com/swlh/the-curious-genericness-of-associated-types-in-swift-5e93a6c7eadc)) add type constraints and so on. Let's see an example - 
+Before we begin, let me explain the terms here. PAT means Protocols with associated types. PATs can be generic, which means you can use any type with them, ([You can refer to this post I wrote earlier on how Protocols in Swift can be used as generic types](https://shawonashraf.github.io/blog/swift-associated-type-generic/)) add type constraints and so on. Let's see an example - 
 
 ```swift
 protocol PlayerDescriptorProtocol {
@@ -146,7 +146,7 @@ Yes they did. So, which one to choose then? Dynamic or Static? To make a verdict
 1. While generics will be faster due to Static Dispatch, it'll also be heavier on memory compared to PATs with dynamic types. Why? Because for each type, the compiler will push a new function to the stack whereas for PAT, due to the dynamic dispatch only the required function will be created.
 2. What if you don't want the Player class to conform to the protocol and also want to keep separate definition for descriptor classes? You'll end up writing more code!
 
-In my view, pick the one you need. If you don't mind sacrificing a bit more memory to get some extra performance from the compiler, then go for generics, else, choose the convenience of PATs. It's more like choosing between `struct` and `class`, since there're no absolute winners, pick the one that does your job.
+In my view, pick the one you need. If you don't mind sacrificing a bit more memory to get some extra performance from the compiler, then go for generics, else, choose the convenience of PATs. It's more like choosing between `struct` and `class`, since there's no absolute winner here, pick the one that does your job.
 
 ### Enough chit chat
 Let's cool off with a song.
