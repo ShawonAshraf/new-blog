@@ -1,8 +1,8 @@
 {
-  "name": "new-blog",
-  "description": "A new place for my ideas to reside.",
+  "name": "blog",
+  "description": "A place for my stupid ideas to reside.",
   "version": "1.0.0",
-  "author": "lcolella",
+  "author": "ShawonAshraf",
   "dependencies": {
     "gatsby": "^2.0.53",
     "gatsby-image": "^2.0.20",
