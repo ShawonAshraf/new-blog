@@ -1,8 +1,8 @@
-
 @import (reference) '../../../style/index.less';
 
 .language-label-colors (@language, @background, @text: @theme-text) {
     @selector: ~'.gatsby-highlight[data-language=@{language}]::before';
+
     @{selector} {
         background-color: @background;
         color: @text;
@@ -11,6 +11,7 @@
 
 .gatsby-highlight {
     position: relative;
+
     &::before {
         position: absolute;
         top: 0;
@@ -22,22 +23,27 @@
         color: @theme-text;
         background: @label-theme;
     }
-    &[data-language="text"], &[data-language="none"] {
+
+    &[data-language="text"],
+    &[data-language="none"] {
         &::before {
             display: none;
         }
+
         pre {
             padding-top: @padding-medium;
         }
     }
+
     pre {
-        font-family: 'Roboto-Mono';
+        font-family: 'Fira-Code';
         font-size: @font-size * 0.9;
         overflow-x: auto;
         overflow-y: hidden;
         padding-top: @padding-medium * 2.5;
         background-color: @post-code;
         border-radius: @border-radius-small;
+
         code {
             font-family: inherit;
             line-height: 1.25em;
