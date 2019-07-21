@@ -19,7 +19,7 @@ module.exports = {
     github: 'https://github.com/ShawonAshraf',
     linkedin: 'https://www.linkedin.com/in/shawon-ashraf-96162763/',
     twitter: 'https://twitter.com/shawon_ashraf',
-    medium: 'https://medium.com/@sashraf94'
+    medium: 'https://medium.com/@shawonashraf'
   },
   tags: {
     angular: {
