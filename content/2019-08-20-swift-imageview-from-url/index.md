@@ -39,7 +39,7 @@ func fetchImage(from urlString: String, completionHandler: @escaping (_ data: Da
         
     let dataTask = session.dataTask(with: url!) { (data, response, error) in
         if error != nil {
-            print("Error fetch the image! 😢")
+            print("Error fetching the image! 😢")
             completionHandler(nil)
         } else {
             completionHandler(data)
