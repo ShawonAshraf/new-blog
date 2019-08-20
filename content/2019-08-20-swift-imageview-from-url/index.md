@@ -1,5 +1,5 @@
 ---
-title: Loading images from URL
+title: Loading images from URL in Swift
 path: blog/swift-imageview-from-url
 date: 2019-08-20
 tags: [swift]
