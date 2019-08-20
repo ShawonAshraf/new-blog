@@ -56,13 +56,13 @@ And to set the image on an `ImageView` (finally!) -
 @IBOutlet weak var imageView: UIImageView!
 
 func setImageToImageView() {
-    fetchImage { (cattoData) in
-        if let catto = cattoData {
+    fetchImage { (imageData) in
+        if let data = imageData {
             // referenced imageView from main thread
             // as iOS SDK warns not to use images from
             // a background thread
             DispatchQueue.main.sync {
-                self.imageView.image = UIImage(data: catto)
+                self.imageView.image = UIImage(data: data)
             }
         } else {
 		        // show as an alert if you want to
