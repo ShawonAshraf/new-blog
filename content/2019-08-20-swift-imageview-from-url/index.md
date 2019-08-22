@@ -61,7 +61,7 @@ func setImageToImageView() {
             // referenced imageView from main thread
             // as iOS SDK warns not to use images from
             // a background thread
-            DispatchQueue.main.sync {
+            DispatchQueue.main.async {
                 self.imageView.image = UIImage(data: data)
             }
         } else {
@@ -80,10 +80,16 @@ Yes, there's an easy way. What we've been doing all alone is that we're fetching
 ```swift
 func setImage(from url: String) {
     guard let imageURL = URL(string: url) else { return }
-    guard let imageData = try? Data(contentsOf: imageURL) else { return }
-        
-    let image = UIImage(data: imageData)
-    imageView.image = image
+
+		// just not to cause a deadlock in UI!
+    DispatchQueue.global().async {
+        guard let imageData = try? Data(contentsOf: imageURL) else { return }
+
+        let image = UIImage(data: imageData)
+        DispatchQueue.main.async {
+            self.imageView.image = image
+        }
+    }
 }
 ``` 
 
