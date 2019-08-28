@@ -82,7 +82,7 @@ Nothing actually unless you really care about low level performance of your appl
 #### Enter Dynamic Dispatch
 For PATs, the compiler will have to figure out the type at runtime, which means it has to do it with dynamic dispatch. What is this thing actually? Dynamic Dispatch means to defer something until runtime instead of doing it all at compile time. Dynamic Dispatch is helpful in situations where the compiler doesn't know which type to apply to your function or objects immediately so it keeps them to be determined later (runtime).
 
-Let's clear it up with an example. You're in an ice cream parlour. There are 3 new flavours today but you don't know how they test. Also, you happen to have the luxury to buy them all. So what you do is, buy them all and then find out how they taste. (Don't blame me if they taste bad). You just did a dynamic dispatch! Had you asked for testers at the counter and then bought the flavor you liked, that'd be static dispatch.
+Let's clear it up with an example. You're in an ice cream parlour. There are 3 new flavours today but you don't know how they taste! On top of that you happen to have the luxury to buy them all. So what you do is, buy them all and then find out how they taste. (Don't blame me if they taste bad). You just did a dynamic dispatch! Had you asked for testers at the counter and then bought the flavour you liked, that'd be static dispatch.
 
 #### Static Dispatch
 Static Dispatch is just the opposite. The compiler already knows what to do, has a clear idea about types in use, so it does everything during compile time. 
