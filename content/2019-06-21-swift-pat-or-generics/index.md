@@ -80,7 +80,9 @@ All's fine now, right? I mean throwing in a FootballPlayer or TennisPlayer won't
 Nothing actually unless you really care about low level performance of your applications. How do you think the compiler figures out what type to use for the PAT? Sure, generic types work like that, the compiler will figure out the type to apply but the question is when does it figure it out? 
 
 #### Enter Dynamic Dispatch
-For PATs, the compiler will have to figure out the type at runtime, which means it has to do it with dynamic dispatch. What is this thing actually? On easier terms Dynamic Dispatch means to defer something until runtime and let the decision to be made then, instead of making things concrete during compile time. Dynamic Dispatch is necessary for polymorphic types, where the compiler doesn't know which polymorphic type to use at compile time so it keeps that decision to be made at runtime. 
+For PATs, the compiler will have to figure out the type at runtime, which means it has to do it with dynamic dispatch. What is this thing actually? Dynamic Dispatch means to defer something until runtime instead of doing it all at compile time. Dynamic Dispatch is helpful in situations where the compiler doesn't know which type to apply to your function or objects immediately so it keeps them to be determined later (runtime).
+
+Let's clear it up with an example. You're in an ice cream parlour. There are 3 new flavours today but you don't know how they test. Also, you happen to have the luxury to buy them all. So what you do is, buy them all and then find out how they taste. (Don't blame me if they taste bad). You just did a dynamic dispatch! Had you asked for testers at the counter and then bought the flavor you liked, that'd be static dispatch.
 
 #### Static Dispatch
 Static Dispatch is just the opposite. The compiler already knows what to do, has a clear idea about types in use, so it does everything during compile time. 
