@@ -30,7 +30,7 @@ func urlSession(_ session: URLSession, downloadTask: URLSessionDownloadTask, did
 ## Let's start!
 We start by creating a single view iOS application in Xcode. What this app is going to do is: download an image from a url, show the progress in a label with percentage and finally set the  downloaded image to an image view (so that we can be sure that the image actually downloaded!). In the end it should look like this - 
 
-![final state of the app](./final.gif)
+![final state of the app](https://media.giphy.com/media/Ky61rq46iCNmKuiUfa/giphy.gif)
 
 ## Interface
 Open up storyboard and add 3 controls - an imageview, a label and a button, using any constraints you like. (Constraints aren't necessary for our discussion at the moment) Take the image below for reference.
