@@ -51,7 +51,7 @@ class ViewController: UIViewController, URLSessionDownloadDelegate {
     
     // MARK: event handler
     @IBAction func startButtonTapped(_ sender: Any) {
-		    // code goes here
+		// code goes here
     }
 }
 ```
@@ -61,7 +61,7 @@ We also have to set the content mode for imageview so that the downloaded image 
 ```swift
 override func viewDidLoad() {
     super.viewDidLoad()
-		// fit image to the view
+	// fit image to the view
     imageView.contentMode = .scaleAspectFill
 }
 ```
