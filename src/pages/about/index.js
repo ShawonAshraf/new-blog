@@ -25,8 +25,7 @@ const About = ({ data: { profilePhoto, skillIcons, toolIcons } }) => {
           <h1>Hi, I'm Shawon!</h1>
           <h2>Hobbyist Programmer</h2>
           <p>
-            A Computer Science and Engineering graduate from <a href={"http://www.northsouth.edu/"}>North South University, Dhaka. </a>
-            Currently passing lazy time with hobby projects. I prefer working with Swift, JS and Java and sometimes, C++.
+            I'm  from Dhaka, Bangladesh and currently doing my MSc in Computational Linguistics at <a href="https://www.uni-stuttgart.de/en/">University of Stuttgart.</a> I prefer working with Swift, JS and Java and sometimes, C++.
             I know a bit of TS but not to the extend to call myself a confident user of the language.
 
             Check out my GitHub profile to know more on what I'm doing!
