@@ -86,6 +86,10 @@ module.exports = {
     python: {
       name: 'Python',
       description: ''
+    },
+    nlp: {
+      name: 'NLP',
+      description: ''
     }
   }
 }
