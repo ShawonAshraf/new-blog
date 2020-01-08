@@ -25,16 +25,14 @@ const About = ({ data: { profilePhoto, skillIcons, toolIcons } }) => {
           <h1>Hi, I'm Shawon!</h1>
           <h2>Hobbyist Programmer</h2>
           <p>
-            I'm  from Dhaka, Bangladesh and currently doing my MSc in Computational Linguistics at <a href="https://www.uni-stuttgart.de/en/">University of Stuttgart.</a> I prefer working with Swift, JS and Java and sometimes, C++.
-            I know a bit of TS but not to the extend to call myself a confident user of the language.
+            Hi! I'm Shawon Ashraf.
+            I'm currently doing my MSc in Computational Linguistics at Universität Stuttgart. Previously I completed my BSc in Computer Science and Engineering from North South University, Dhaka. 
+            I'm a native of Dhaka, Bangladesh, currently living in Stuttgart.
 
-            Check out my GitHub profile to know more on what I'm doing!
+
+            My hobbies include(but not limited to!) Photography, Gaming, Books.
+            Music? Subir Nandi, Black, Warfaze, Guns and Roses, Rammstein, Poets of the Fall, Ludovico Enaudi.
           </p>
-          <br />
-          <h2>Skills</h2>
-          <ImageList edges={skillIcons.edges} />
-          <h2>Tools</h2>
-          <ImageList edges={toolIcons.edges} />
         </div>
       </div>
     </Layout>
