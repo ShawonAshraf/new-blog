@@ -90,6 +90,14 @@ module.exports = {
     nlp: {
       name: 'NLP',
       description: ''
+    },
+    math: {
+      name: 'MATH',
+      description: ''
+    },
+    memos: {
+      name: 'MEMOS',
+      description: 'Things that come to mind and I want to blabber about.'
     }
   }
 }
