@@ -73,8 +73,8 @@ class Header extends Component {
           {this.state.collapsedMenu ? (
             <FaBars size="30" onClick={this.toggleMenu} />
           ) : (
-            <FaTimes size="30" onClick={this.toggleMenu} />
-          )}
+              <FaTimes size="30" onClick={this.toggleMenu} />
+            )}
         </div>
       </div>
       <div
@@ -91,7 +91,7 @@ class Header extends Component {
             <Link to={Utils.resolvePageUrl(Config.pages.tag)}>Tags</Link>
           </li>
           <li>
-            <Link to={Utils.resolvePageUrl(Config.pages.about)}>About</Link>
+            <a href={Config.pages.about}>About</a>
           </li>
         </ul>
         <ul>

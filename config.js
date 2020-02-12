@@ -11,7 +11,7 @@ module.exports = {
   pages: {
     home: '/',
     blog: 'blog',
-    about: 'about',
+    about: 'https://www.shawonashraf.com/',
     tag: 'tag',
     archive: 'archive'
   },
