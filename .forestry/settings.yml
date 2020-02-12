@@ -1,0 +1,28 @@
+---
+new_page_extension: md
+auto_deploy: false
+admin_path: static/admin
+webhook_url: 
+sections:
+- type: directory
+  path: src/images/postpreviews
+  label: cover-images
+  create: all
+  match: "**/*"
+- type: directory
+  path: content
+  label: posts
+  create: all
+  match: "**/*"
+upload_dir: static/assets
+public_path: assets
+front_matter_path: ''
+use_front_matter_path: false
+file_template: ":filename:"
+instant_preview: 
+build:
+  preview_output_directory: public
+  preview_docker_image: forestryio/build:latest
+  mount_path: "/opt/buildhome/repo"
+  instant_preview_command: gatsby develop -H 0.0.0.0 -p 8080
+  preview_command: gatsby build
