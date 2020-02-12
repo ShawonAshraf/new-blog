@@ -5,9 +5,9 @@ admin_path: static/admin
 webhook_url: 
 sections:
 - type: directory
-  path: src/images/postpreviews
+  path: src/images
   label: cover-images
-  create: all
+  create: documents
   match: "**/*"
 - type: directory
   path: content
@@ -22,6 +22,7 @@ file_template: ":filename:"
 instant_preview: 
 build:
   preview_output_directory: public
+  install_dependencies_command: npm install
   preview_docker_image: forestryio/build:latest
   mount_path: "/opt/buildhome/repo"
   instant_preview_command: gatsby develop -H 0.0.0.0 -p 8080
