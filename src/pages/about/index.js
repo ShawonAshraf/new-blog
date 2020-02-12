@@ -9,7 +9,7 @@ import SEO from '../../components/seo'
 import Utils from '../../utils'
 import * as style from './index.module.less'
 
-const About = ({ data: { profilePhoto, skillIcons, toolIcons } }) => {
+const About = ({ data: { profilePhoto } }) => {
   return (
     <Layout>
       <SEO
@@ -22,16 +22,13 @@ const About = ({ data: { profilePhoto, skillIcons, toolIcons } }) => {
           <Img fluid={profilePhoto.childImageSharp.fluid} />
         </div>
         <div className={style.content}>
-          <h1>Hi, I'm Shawon!</h1>
-          <h2>Hobbyist Programmer</h2>
           <p>
             Hi! I'm Shawon Ashraf.
-            I'm currently doing my MSc in Computational Linguistics at Universität Stuttgart. Previously I completed my BSc in Computer Science and Engineering from North South University, Dhaka. 
+            I'm currently doing my MSc in Computational Linguistics at Universität Stuttgart. Previously I completed my BSc in Computer Science and Engineering from North South University, Dhaka.
             I'm a native of Dhaka, Bangladesh, currently living in Stuttgart.
 
 
-            My hobbies include(but not limited to!) Photography, Gaming, Books.
-            Music? Subir Nandi, Black, Warfaze, Guns and Roses, Rammstein, Poets of the Fall, Ludovico Enaudi.
+            Visit this page to know more! <a href="https://www.shawonashraf.com/">https://www.shawonashraf.com/</a>
           </p>
         </div>
       </div>
